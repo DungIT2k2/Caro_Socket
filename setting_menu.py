@@ -1,0 +1,2 @@
+FPS = 60
+WINDOW_SIZE = (540, 540)
