@@ -1,5 +1,5 @@
 # Introduce the game
-- Introduce the game to Website :
+- Introduce the game to Website : [https://vinhit1609.github.io/Caro_WebStatic/](https://vinhit1609.github.io/Caro_WebStatic/)
   
 # **Guide to installing Caro Game**
 
