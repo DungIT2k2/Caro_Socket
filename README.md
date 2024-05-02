@@ -35,7 +35,7 @@ Next, install pip:
 sudo apt install -y python3-pip
 ```
 
-Upgrade pip and setuptools to the latest with the command:
+Upgrade pip to the latest and install net-tools with the command:
 
 ```powershell
 pip3 install --upgrade pip
@@ -44,7 +44,7 @@ pip3 install --upgrade pip
 And:
 
 ```powershell
-pip3 install --upgrade setuptool
+sudo apt install net-tools
 ```
 
 
