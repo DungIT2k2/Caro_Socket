@@ -71,7 +71,7 @@ class Game():
     def draw_board(self):
         cols = WINDOW_WIDTH // TILE_SIZE
         rows = WINDOW_HEIGHT // TILE_SIZE
-        # lặp vô hạn
+        
         offset_vector = vector(
             x=self.origin.x - int(self.origin.x / TILE_SIZE) * TILE_SIZE,
             y=self.origin.y - int(self.origin.y / TILE_SIZE) * TILE_SIZE
@@ -153,7 +153,7 @@ class Game():
             check_flag += 1
             new_cell = (current_cell[0],neighbor_row_start)
 
-        #check right
+        #check bottom
         neighbor_row_end = current_cell[1] + 1
         new_cell = (current_cell[0],neighbor_row_end)
         while neighbor_row_end <= current_cell[1] + 4 and check_flag != 5:
@@ -168,7 +168,7 @@ class Game():
             return True
         return False
     
-    #check theo hàng ngàng
+    #check theo hàng ngàng  
     def check_winning_horizontal(self, current_cell):
         if current_cell not in self.canvas_data: return False
         current_index = self.canvas_data[current_cell].get_cell()

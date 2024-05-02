@@ -1,7 +1,6 @@
 # setup
 import pygame
 
-
 TILE_SIZE = 40
 WINDOW_WIDTH = 1280
 WINDOW_HEIGHT = 640
@@ -16,10 +15,11 @@ EDITOR_DATA = [
 ]
 
 pygame.mixer.init()
-#chèn âm thanh
+
+#âm thanh
 TICK_SOUND_X = pygame.mixer.Sound('./sound/mark_x.wav')
 TICK_SOUND_O = pygame.mixer.Sound('./sound/mark_o.wav')
 DRAW_WIN = pygame.mixer.Sound('./sound/win.wav')
 
-# Tạo một kênh âm thanh mới để phát các âm thanh X và O
+# Tạo một kênh âm thanh mới để chứa âm thanh X và O
 GAME_SOUNDS = pygame.mixer.Channel(1)
